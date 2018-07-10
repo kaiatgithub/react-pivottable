@@ -55,8 +55,6 @@ export class DraggableAttribute extends React.Component {
             display: 'block',
             cursor: 'initial',
             zIndex: this.props.zIndex,
-            top: this.state.top + 'px',
-            left: this.state.left + 'px',
           }}
           onClick={() => this.props.moveFilterBoxToTop(this.props.name)}
         >
